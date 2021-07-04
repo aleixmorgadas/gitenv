@@ -1,0 +1,37 @@
+{
+  "name": "@aleixmp/gitenv",
+  "version": "0.0.1",
+  "description": "A CLI to manage multiple Git profiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf build/ && tsc"
+  },
+  "bin": {
+    "gitenv": "bin/gitenv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleixmorgadas/gitenv.git"
+  },
+  "keywords": [
+    "git",
+    "gitenv",
+    "environment",
+    "manager"
+  ],
+  "author": "Aleix Morgadas <aleix.morgadas@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleixmorgadas/gitenv/issues"
+  },
+  "homepage": "https://github.com/aleixmorgadas/gitenv#readme",
+  "dependencies": {
+    "clime": "^0.5.14",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "jest": "^27.0.6"
+  }
+}
